@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Capacitación TIC's</title>
+    <link rel="icon" href="piclogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <header>
+        <h1>Capacitación en TIC's</h1>
+        <p>Tecnologías de la Información y Comunicación</p>
+    </header>
+ 
+    <nav>
+        <ul>
+            <li><a href="index.html">Pagina inicial</a></li>
+            <li>
+                <a href="#">Temas (3-6 semestres) ▼</a>
+                <ul>
+                    <li><a href="Pag1.html">Gestión de Archivos</a></li>
+                    <li><a href="Pag2.html">Hojas de Cálculo</a></li>
+                    <li><a href="Pag3.html">Comunidades Virtuales</a></li>
+                    <li><a href="Pag4.html">Mantenimiento y Redes</a></li>
+                    <li><a href="Pag5.html">Sistemas de Información</a></li>
+                    <li><a href="Pag6.html">Programación</a></li>
+                    <li><a href="Pag7.html">Diseño Web</a></li>
+                    <li><a href="Pag8.html">Diseño Digital</a></li>
+                </ul>
+            </li>
+          </nav>
+ 
+    <section>
+        <h2>Objetivo de la capacitación</h2>
+        <p>
+            El objetivo de la capacitación en TIC's es desarrollar habilidades
+            tecnológicas en los alumnos, aprendiendo programación, diseño digital,
+            desarrollo web y herramientas informáticas para aplicarlas en la vida
+            escolar y profesional.
+        </p>
+    </section>
+ 
+    <section>
+        <h2>Áreas relacionadas con la informática</h2>
+        <ul>
+            <li>Programación</li>
+            <li>Diseño gráfico</li>
+            <li>Desarrollo web</li>
+            <li>Soporte técnico</li>
+        </ul>
+        <ol>
+            <li>Aprender HTML</li>
+            <li>Crear páginas web</li>
+            <li>Diseñar logotipos</li>
+            <li>Desarrollar proyectos</li>
+        </ol>
+        <dl>
+            <dt><b>HTML</b></dt>
+            <dd>Lenguaje utilizado para crear páginas web, en la capacitación de TIC's aprenderás el manejo básico sobre HTML usando herramientas como bloc de notas y Dreamweaver para la elaboración de actividades.</dd>
+            <dt><b>Inkscape</b></dt>
+            <dd>Programa para crear logotipos y diseños con extensión SVG en vectores para evitar que la imagen pierda calidad al momento de ser exportada e importada.</dd>
+            <dt><b>TIC's</b></dt>
+            <dd>Tecnologías usadas para la información y comunicación.</dd>
+        </dl>
+    </section>
+ 
+    <section>
+        <h2>Módulos y Submódulos</h2>
+        <table>
+            <tr>
+                <th>Módulos (6to semestre)</th>
+                <th>Submódulos</th>
+            </tr>
+            <tr>
+                <td>Desarrollo Web</td>
+                <td>HTML básico y estructura web en bloc de notas</td>
+            </tr>
+            <tr>
+                <td>Diseño Digital</td>
+                <td>Uso de Inkscape y creación de logotipos</td>
+            </tr>
+            <tr>
+                <td>Proyecto Final</td>
+                <td>Desarrollo de página completa</td>
+            </tr>
+        </table>
+    </section>
+ 
+  <section class="seccion-carrusel">
+        <h2>Trabajos y prácticas de la capacitación</h2>
+        <div class="carrusel-wrapper">
+            <button class="carrusel-btn" id="btnLeft" onclick="moverCarrusel(-1)">&#8592;</button>
+            <div class="carrusel" id="carrusel">
+                <img src="practica.png">
+                <img src="porganisador.png">
+                <img src="pooh.png">
+                <img src="pmcikey.png">
+                <img src="PANTERA.png">
+                <img src="pagimgaen1.png">
+                <img src="pagimagen2.png">
+            </div>
+            <button class="carrusel-btn" id="btnRight" onclick="moverCarrusel(1)">&#8594;</button>
+        </div>
+    </section>
+ 
+    <section>
+        <h2 align="center">Logos trabajados en clase de diseño gráfico</h2>
+        <div class="logos">
+            <img src="plogo1.png">
+            <img src="plogo2.png">
+        </div>
+    </section>
+ 
+    <footer>
+        <p><b>Capacitación TIC's</b></p>
+        <p>© 2026 Todos los derechos reservados</p>
+        <p>Contacto: alu_232003180@cobachmorelos.edu.mx</p>
+    </footer>
+ <script>
+   function moverCarrusel(direccion) {
+    const carrusel = document.getElementById('carrusel');
+    carrusel.scrollBy({ left: direccion * 1515, behavior: 'smooth' });
+}
+    </script>
+ 
+</body>
+</html>
